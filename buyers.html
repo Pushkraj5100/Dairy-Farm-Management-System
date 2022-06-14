@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/buyer.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="a">
+            <div class="f">
+                <img src="images/milk.jpg" alt="logo" class="logo1" width="50px">
+                <h1 class="dashboard">DAIRY <span>MANAGEMENT</span></h1>
+            </div>
+            <div class="b">
+                <img src="images/milk1.jpg" alt="logo" class="logo2" width="50px">
+                <h1>ADMIN</h1>
+            </div>
+
+        </div>
+        <div class="c">
+            <div class="p">
+                <ul>
+                    <h2>DASHBOARD</h2>
+                    <li><b><a href="#">BUSINESS</a></b></li>
+                    <li><b><a href="buyers.html">BUYERS</a></b></li>
+                    <li><b><a href="seller.html">SELLERS</a></b></li>
+                </ul>
+            </div>
+            <div class="q">
+
+                <div class="ab">
+                    <h1>BUYER</h1>
+                    <form action="buyers.php" method="post">
+                        <div class="name">
+                            <label for="Bname">NAME : </label>
+                            <input type="text" placeholder="Enter name" name="Bname" required>
+                        </div>
+                        <div class="pn">
+                            <label for="Bno">mobile no : </label>
+                            <input type="text" placeholder="Enter mobile number" name="Bno" required>
+                        </div>
+                        <div class="qan">
+                            <label for="Bquantity">Quantity : </label>
+                            <input type="number" placeholder="In litres" name="Bquantity" required>
+                        </div>
+                        <div class="qan">
+                            <select class="form-select" aria-label="Default select example" name="bcow" required>
+                                <option selected>Open this select menu</option>
+                                <option value=" 1 ">Cow</option>
+                                <option value="2 ">Buffalo</option>
+                              </select>
+                        </div>
+                        <div class="submit ">
+                            <input type="submit" value="add" class="add ">
+                        </div>
+                    </form>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

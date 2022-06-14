@@ -1,0 +1,126 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    width: 100;
+    min-height: 10%;
+    background-color: rgb(91, 195, 236);
+    flex-wrap: nowrap;
+}
+.f{
+    display: flex;
+    margin-left: 5%;
+}
+.b{
+    display: flex;
+    margin-right: 5%;
+}
+span{
+    color: rgb(142, 73, 182);
+}
+.f h1{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.logo1{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.b h1{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.logo2{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.c{
+    display: flex;
+    background-color: rgb(204, 239, 245);
+    width: 100%;
+    height: 90%;
+  
+}
+.p{
+flex-basis: 20%;
+}
+.q{
+    
+flex-basis: 80%;
+line-height: 5vh;
+    border: 2px solid rgb(37, 93, 110);
+    width: auto;
+    
+}
+
+.ab{
+    padding-top: 30px;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    width: 400px;
+    border: 1px solid green;
+    border-radius: 15px;
+    line-height: 7vh;
+    padding-left: 20px;
+    padding-bottom: 30px;
+   
+}
+.add{
+    position: relative;
+    left:  43%;
+    padding: 10px;
+    width: 70px;
+    border-radius: 10px;
+}
+.ab h1{
+    text-align: center;
+}
+
+.buyers ,.sellers , .business{
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
+.p{
+    padding-top:2.2em;
+    border-right:10px solid rgb(175, 242, 245)
+    
+}
+.p ul{
+    padding-left: 3em;
+    text-decoration: none;
+    
+}
+.p ul li{
+    padding-top: 3em;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    color: seagreen;
+}
+.name input{
+    border: none;
+    background-color: transparent;
+}
+.pn input{
+    border: none;
+    background-color: transparent;
+}
+.qan input{
+    border: none;
+    background-color: transparent;
+}
+.p ul a{
+    text-decoration: none
+}
